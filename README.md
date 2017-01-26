@@ -1,0 +1,2 @@
+# Twitch-FCC
+Twitch.tv JSON API Project for FreeCodeCamp
