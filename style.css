@@ -11,18 +11,7 @@
   font-size: 18px;
   text-shadow: 1px 1px #170f26;
   margin: auto;
-}
-
-.online {
-  border-top: 5px solid #6441a4;
-  border-left: 5px solid #6441a4;
-  border-right: 5px solid #6441a4;
-}
-
-.offline {
-  border-left: 5px solid #6441a4;
-  border-right: 5px solid #6441a4;
-  border-bottom: 5px solid #6441a4;
+  border: 5px solid #6441a4;
 }
 
 .column-1 {
