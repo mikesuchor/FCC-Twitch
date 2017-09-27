@@ -1,5 +1,4 @@
-# FCC-Twitch
-FreeCodeCamp Twitch.tv JSON API Project
+# FreeCodeCamp Twitch.tv JSON API Project
 
 1. Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/Myvqmo/.
 
