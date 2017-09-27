@@ -16,11 +16,11 @@ $(document).ready(function() {
     $.getJSON(streamsURL + streams[i] + "?callback=?", function(json) {
       if (json.stream == null) {
         $.getJSON(channelsURL + streams[i] + "?callback=?", function(json2) {
-          $(".offline").append('<tr><td class="column-1"><img src = "' + json2.logo + '"></td>' + '<td class="column-2"><a href = "' + json2.url + '">' + json2.name + '</a></td>' + '<td class="column-3">' + "Offline" + '</td>' + '<td class="column-4">' + json2.game + '</td></tr>');
+          $(".twitchBoxes").append('<tr><td class="column-1"><img src = "' + json2.logo + '"></td>' + '<td class="column-2"><a href = "' + json2.url + '">' + json2.name + '</a></td>' + '<td class="column-3">' + "Offline" + '</td>' + '<td class="column-4">' + json2.game + '</td></tr>');
         });
       }
       else {
-        $(".online").append('<tr><td class="column-1"><img src = "' + json.stream.channel.logo + '"></td>' + '<td class="column-2"><a href = "' + json.stream.channel.url + '">' + json.stream.channel.name + '</a></td>' + '<td class="column-3">' + json.stream.channel.status + '</td>' + '<td class="column-4">' + json.stream.channel.game + '</td></tr>');
+        $(".twitchBoxes").prepend('<tr><td class="column-1"><img src = "' + json.stream.channel.logo + '"></td>' + '<td class="column-2"><a href = "' + json.stream.channel.url + '">' + json.stream.channel.name + '</a></td>' + '<td class="column-3">' + json.stream.channel.status + '</td>' + '<td class="column-4">' + json.stream.channel.game + '</td></tr>');
       }
     });
     }
