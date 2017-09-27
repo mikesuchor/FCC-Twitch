@@ -1,15 +1,15 @@
 # FCC-Twitch
 FreeCodeCamp Twitch.tv JSON API Project
 
-Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/Myvqmo/.
+1. Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/Myvqmo/.
 
-Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
+1. Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
 
-User Story: I can see whether Free Code Camp is currently streaming on Twitch.tv.
+1. User Story: I can see whether Free Code Camp is currently streaming on Twitch.tv.
 
-User Story: I can click the status output and be sent directly to the Free Code Camp's Twitch.tv channel.
+1. User Story: I can click the status output and be sent directly to the Free Code Camp's Twitch.tv channel.
 
-User Story: if a Twitch user is currently streaming, I can see additional details about what they are streaming.
+1. User Story: if a Twitch user is currently streaming, I can see additional details about what they are streaming.
 
 Hint: See an example call to Twitch.tv's JSONP API at http://forum.freecodecamp.org/t/use-the-twitchtv-json-api/19541.
 
