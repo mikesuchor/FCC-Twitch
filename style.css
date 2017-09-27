@@ -1,0 +1,77 @@
+body {
+  background-color: #ddd;
+}
+
+.title {
+  display: block;
+  height: 75px;
+  padding: 25px 0;
+  margin: auto;
+}
+
+.twitchBoxes {
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  font-size: 18px;
+  text-shadow: 1px 1px #170f26;
+  margin: auto;
+}
+
+.online {
+  border-top: 5px solid #6441a4;
+  border-left: 5px solid #6441a4;
+  border-right: 5px solid #6441a4;
+}
+
+.offline {
+  border-left: 5px solid #6441a4;
+  border-right: 5px solid #6441a4;
+  border-bottom: 5px solid #6441a4;
+}
+
+.column-1 {
+  width: 50px;
+}
+
+.column-2 {
+  width: 125px;
+}
+
+.column-3 {
+  width: 600px;
+}
+
+.column-4 {
+  width: 350px;
+}
+
+.twitchBoxes td {
+  height: 50px;
+  vertical-align: middle;
+}
+
+.twitchBoxes td + td {
+  padding-left: 15px;
+}
+
+.twitchBoxes tr:nth-child(even) {
+  background-color: #6441a4;
+}
+
+.twitchBoxes tr:nth-child(odd) {
+  background-color: #987ccb;
+}
+
+.twitchBoxes img {
+  height: 50px;
+  vertical-align: middle;
+}
+
+a, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #533688;
+}
